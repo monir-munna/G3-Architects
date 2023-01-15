@@ -96,9 +96,9 @@ body {
 
 .features-container {
   display: flex;
-  gap: 73px;
+  gap: 60px;
   align-items: center;
-  margin: 85px 301px 0 301px;
+  margin: 85px 270px 0 270px;
 }
 
 .team-images {
@@ -130,6 +130,7 @@ body {
 /* -------------span style end-------------- */
 
 .features-description {
+  width: 537px;
   color: #727272;
   font-weight: 400;
   font-size: 16px;
@@ -371,6 +372,9 @@ body {
   .list-of-features {
     text-align: center;
     padding: 10px;
+  }
+  .features-description{
+    width: 100%;
   }
   .features-info-section {
     text-align: center;
